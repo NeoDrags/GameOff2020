@@ -21,14 +21,18 @@ _global_script_class_icons={
 [application]
 
 config/name="Pixel Test"
+run/main_scene="res://World.tscn"
 
 [display]
 
 window/size/width=320
 window/size/height=180
+window/size/test_width=1280
+window/size/test_height=720
 window/dpi/allow_hidpi=true
 window/per_pixel_transparency/allowed=true
 window/per_pixel_transparency/enabled=true
+window/stretch/mode="2d"
 window/stretch/aspect="keep"
 
 [gdnative]
