@@ -142,7 +142,7 @@ script = ExtResource( 2 )
 position = Vector2( -1, -16 )
 texture = ExtResource( 1 )
 hframes = 26
-frame = 25
+frame = 16
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 visible = false
@@ -167,7 +167,7 @@ parameters/WalkAnim/blend_position = Vector2( 0.239295, 0.37931 )
 current = true
 limit_left = 0
 limit_top = 0
-limit_right = 544
+limit_right = 1200
 limit_bottom = 368
 limit_smoothed = true
 smoothing_enabled = true
